@@ -1,15 +1,72 @@
 {
-  "name": "vision6-jsonrpc-client",
-  "version": "0.0.2",
+  "_args": [
+    [
+      {
+        "raw": "vision6-jsonrpc-client",
+        "scope": null,
+        "escapedName": "vision6-jsonrpc-client",
+        "name": "vision6-jsonrpc-client",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\WIP\\sierra-api"
+    ]
+  ],
+  "_from": "vision6-jsonrpc-client@latest",
+  "_id": "vision6-jsonrpc-client@0.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/vision6-jsonrpc-client",
+  "_nodeVersion": "7.2.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/vision6-jsonrpc-client-0.0.2.tgz_1481868597791_0.5938993894960731"
+  },
+  "_npmUser": {
+    "name": "jc21",
+    "email": "jc@jc21.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "vision6-jsonrpc-client",
+    "scope": null,
+    "escapedName": "vision6-jsonrpc-client",
+    "name": "vision6-jsonrpc-client",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vision6-jsonrpc-client/-/vision6-jsonrpc-client-0.0.2.tgz",
+  "_shasum": "fbe1d14892c265bf36a1c50415a708b2740542a7",
+  "_shrinkwrap": null,
+  "_spec": "vision6-jsonrpc-client",
+  "_where": "C:\\WIP\\sierra-api",
+  "author": {
+    "name": "Jamie Curnow",
+    "email": "jc@jc21.com",
+    "url": "http://www.jc21.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jc21/nodejs-vision6-jsonrpc-client/issues"
+  },
+  "dependencies": {
+    "jayson": "^2.0.2"
+  },
   "description": "An API Client for the Vision6 JSON-RPC Api www.vision6.com.au",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "fbe1d14892c265bf36a1c50415a708b2740542a7",
+    "tarball": "https://registry.npmjs.org/vision6-jsonrpc-client/-/vision6-jsonrpc-client-0.0.2.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jc21/nodejs-vision6-jsonrpc-client.git"
-  },
+  "gitHead": "9f7bd2c460d4790738fe52fbd562b77afd5e6a6d",
+  "homepage": "https://github.com/jc21/nodejs-vision6-jsonrpc-client#readme",
   "keywords": [
     "vision6",
     "jsonrpc",
@@ -17,13 +74,23 @@
     "email",
     "marketing"
   ],
-  "author": "Jamie Curnow <jc@jc21.com> (http://www.jc21.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jc21/nodejs-vision6-jsonrpc-client/issues"
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "jc21",
+      "email": "jc@jc21.com"
+    }
+  ],
+  "name": "vision6-jsonrpc-client",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jc21/nodejs-vision6-jsonrpc-client.git"
   },
-  "homepage": "https://github.com/jc21/nodejs-vision6-jsonrpc-client#readme",
-  "dependencies": {
-    "jayson": "^2.0.2"
-  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.2"
 }
