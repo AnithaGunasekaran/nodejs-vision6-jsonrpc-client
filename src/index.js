@@ -1,6 +1,6 @@
 'use strict';
 
-const debug  = require('debug')('vision6');
+
 const jayson = require('jayson/promise');
 
 /**
@@ -36,11 +36,11 @@ module.exports = function (api_key, host) {
             options = options || [];
             options.unshift(api_key);
 
-            debug('Calling ' + method_name, options);
+          
 
             return client.request(method_name, options)
                 .then(function (results) {
-                    debug(method_name, results);
+                   
 
                     if (typeof results.error !== 'undefined' && results.error) {
                         console.log(options)
