@@ -1,6 +1,6 @@
 'use strict';
 
-
+const debug  = require('debug')('vision6');
 const jayson = require('jayson/promise');
 
 /**
@@ -36,16 +36,15 @@ module.exports = function (api_key, host) {
             options = options || [];
             options.unshift(api_key);
 
-          
+
 
             return client.request(method_name, options)
                 .then(function (results) {
-                   
+   
 
                     if (typeof results.error !== 'undefined' && results.error) {
-                        console.log(options)
-						console.log(results)
-                        throw new Error(results.error);
+                      
+                        throw results.error;
                     }
 
                     if (typeof results.result !== 'undefined') {
@@ -250,8 +249,9 @@ module.exports = function (api_key, host) {
 
          ////Clear List
 		clearList: function (listID) {
-            console.log(listID)
+      
             listID   = listID 
+            
             return this.call('clearList', [
                 listID
             ]);
